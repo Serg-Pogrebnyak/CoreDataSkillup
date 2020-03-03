@@ -56,15 +56,63 @@
 		DE24BB48240E5CFA00CE7FCB /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				DE24BB49240E5CFA00CE7FCB /* AppDelegate.swift */,
-				DE24BB4D240E5CFA00CE7FCB /* ViewController.swift */,
-				DE24BB4F240E5CFA00CE7FCB /* Main.storyboard */,
-				DE24BB55240E5CFE00CE7FCB /* Assets.xcassets */,
-				DE24BB57240E5CFE00CE7FCB /* LaunchScreen.storyboard */,
-				DE24BB5A240E5CFE00CE7FCB /* Info.plist */,
-				DE24BB52240E5CFA00CE7FCB /* VideoPlayer.xcdatamodeld */,
+				DE91D657240E7958003F7D93 /* Sources */,
+				DE91D653240E7934003F7D93 /* Models */,
+				DE91D656240E794F003F7D93 /* StroyBoards */,
+				DE91D654240E7937003F7D93 /* CoreData */,
+				DE91D658240E795E003F7D93 /* Resources */,
+				DE91D655240E7948003F7D93 /* Plists */,
 			);
 			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		DE91D653240E7934003F7D93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE91D654240E7937003F7D93 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DE24BB52240E5CFA00CE7FCB /* VideoPlayer.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		DE91D655240E7948003F7D93 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				DE24BB5A240E5CFE00CE7FCB /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		DE91D656240E794F003F7D93 /* StroyBoards */ = {
+			isa = PBXGroup;
+			children = (
+				DE24BB4F240E5CFA00CE7FCB /* Main.storyboard */,
+				DE24BB57240E5CFE00CE7FCB /* LaunchScreen.storyboard */,
+			);
+			path = StroyBoards;
+			sourceTree = "<group>";
+		};
+		DE91D657240E7958003F7D93 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DE24BB49240E5CFA00CE7FCB /* AppDelegate.swift */,
+				DE24BB4D240E5CFA00CE7FCB /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DE91D658240E795E003F7D93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE24BB55240E5CFE00CE7FCB /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ63ZZYZV7;
-				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				INFOPLIST_FILE = VideoPlayer/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ63ZZYZV7;
-				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				INFOPLIST_FILE = VideoPlayer/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
