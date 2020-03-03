@@ -13,6 +13,7 @@ class MainVC: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
 
     var arrayOfUsers = [User]()
+    var arrayOfItems = [Item]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,7 @@ class MainVC: UIViewController {
     
     @IBAction func addNewUser(_ sender: Any) {
         arrayOfUsers.append(User.init(userName: nameTextField.text!))
+        //arrayOfItems.append(Item.init(itemName: nameTextField.text!, count: 5))
     }
 
     @IBAction func presentNewVC(_ sender: Any) {

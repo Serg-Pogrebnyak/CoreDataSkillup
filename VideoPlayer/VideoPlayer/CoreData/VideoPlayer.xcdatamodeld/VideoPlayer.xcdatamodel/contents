@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName=".Item" syncable="YES">
+        <attribute name="count" attributeType="Integer 16" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="idLocal" attributeType="String" defaultValueString="defaultId"/>
+        <attribute name="itemName" attributeType="String" defaultValueString="defaultName"/>
+    </entity>
     <entity name="User" representedClassName=".User" syncable="YES">
         <attribute name="idLocal" attributeType="String" defaultValueString="defaultId"/>
         <attribute name="name" attributeType="String" defaultValueString="defaultName"/>
@@ -11,5 +16,6 @@
     </entity>
     <elements>
         <element name="User" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Item" positionX="-54" positionY="9" width="128" height="88"/>
     </elements>
 </model>

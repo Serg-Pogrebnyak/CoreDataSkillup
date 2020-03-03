@@ -16,6 +16,7 @@
 		DE91D65D240E7EDC003F7D93 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91D65C240E7EDC003F7D93 /* User.swift */; };
 		DE91D65F240E92B9003F7D93 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91D65E240E92B9003F7D93 /* MainVC.swift */; };
 		DE91D661240EA37E003F7D93 /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91D660240EA37E003F7D93 /* CoreManager.swift */; };
+		DE91D663240EB175003F7D93 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91D662240EB175003F7D93 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DE91D65C240E7EDC003F7D93 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DE91D65E240E92B9003F7D93 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		DE91D660240EA37E003F7D93 /* CoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
+		DE91D662240EB175003F7D93 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				DE91D65C240E7EDC003F7D93 /* User.swift */,
+				DE91D662240EB175003F7D93 /* Item.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				DE24BB54240E5CFA00CE7FCB /* VideoPlayer.xcdatamodeld in Sources */,
 				DE91D65F240E92B9003F7D93 /* MainVC.swift in Sources */,
 				DE24BB4A240E5CFA00CE7FCB /* AppDelegate.swift in Sources */,
+				DE91D663240EB175003F7D93 /* Item.swift in Sources */,
 				DE91D65D240E7EDC003F7D93 /* User.swift in Sources */,
 				DE91D65A240E7D12003F7D93 /* AllUsersVC.swift in Sources */,
 			);

@@ -11,10 +11,12 @@ import UIKit
 class AllUsersVC: UIViewController {
 
     var arrayOfUsers = [User]()
+    var arrayOfItems = [Item]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        arrayOfUsers = CoreManager.shared.getElementsArray()!
+        arrayOfUsers = CoreManager.shared.getAllUsers()!
+        //arrayOfItems = CoreManager.shared.getAllItems()!
     }
 
 }
