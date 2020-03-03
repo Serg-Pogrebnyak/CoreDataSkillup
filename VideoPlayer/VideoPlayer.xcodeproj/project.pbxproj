@@ -15,6 +15,7 @@
 		DE91D65A240E7D12003F7D93 /* AllUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91D659240E7D12003F7D93 /* AllUsersVC.swift */; };
 		DE91D65D240E7EDC003F7D93 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91D65C240E7EDC003F7D93 /* User.swift */; };
 		DE91D65F240E92B9003F7D93 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91D65E240E92B9003F7D93 /* MainVC.swift */; };
+		DE91D661240EA37E003F7D93 /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91D660240EA37E003F7D93 /* CoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DE91D659240E7D12003F7D93 /* AllUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersVC.swift; sourceTree = "<group>"; };
 		DE91D65C240E7EDC003F7D93 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DE91D65E240E92B9003F7D93 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		DE91D660240EA37E003F7D93 /* CoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				DE24BB52240E5CFA00CE7FCB /* VideoPlayer.xcdatamodeld */,
+				DE91D660240EA37E003F7D93 /* CoreManager.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE91D661240EA37E003F7D93 /* CoreManager.swift in Sources */,
 				DE24BB54240E5CFA00CE7FCB /* VideoPlayer.xcdatamodeld in Sources */,
 				DE91D65F240E92B9003F7D93 /* MainVC.swift in Sources */,
 				DE24BB4A240E5CFA00CE7FCB /* AppDelegate.swift in Sources */,

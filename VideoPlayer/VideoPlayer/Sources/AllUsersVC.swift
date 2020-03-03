@@ -14,7 +14,7 @@ class AllUsersVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        arrayOfUsers = CoreManager.shared.getElementsArray()!
     }
 
 }

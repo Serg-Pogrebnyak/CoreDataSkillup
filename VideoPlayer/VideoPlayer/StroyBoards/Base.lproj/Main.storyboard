@@ -37,13 +37,22 @@
                                     <action selector="addNewUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aVD-Cr-l1O"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kg1-3P-bUp">
+                                <rect key="frame" x="190" y="64" width="34" height="30"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UUe-oo-0EZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="VIi-fb-FjZ" firstAttribute="top" secondItem="k68-Zy-wzv" secondAttribute="bottom" constant="30" id="2D7-z3-OQh"/>
                             <constraint firstItem="k68-Zy-wzv" firstAttribute="top" secondItem="N5b-no-F5h" secondAttribute="bottom" constant="30" id="6uC-N5-eMf"/>
+                            <constraint firstItem="Kg1-3P-bUp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8yP-DN-sSW"/>
                             <constraint firstItem="VIi-fb-FjZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B4u-Jh-e6h"/>
                             <constraint firstItem="k68-Zy-wzv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ENC-TK-flO"/>
+                            <constraint firstItem="Kg1-3P-bUp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="aKH-mv-A5z"/>
                             <constraint firstItem="N5b-no-F5h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fQi-LS-wq8"/>
                             <constraint firstItem="N5b-no-F5h" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vmP-iP-coN"/>
                         </constraints>

@@ -25,7 +25,10 @@ class MainVC: UIViewController {
 
     @IBAction func presentNewVC(_ sender: Any) {
         let newVC = self.storyboard!.instantiateViewController(withIdentifier: "AllUserVC") as! AllUsersVC
-        newVC.arrayOfUsers = arrayOfUsers
         self.present(newVC, animated: true, completion: nil)
+    }
+
+    @IBAction func saveData(_ sender: Any) {
+        CoreManager.shared.saveContext()
     }
 }
