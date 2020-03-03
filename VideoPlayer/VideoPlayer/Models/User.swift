@@ -11,6 +11,7 @@ import CoreData
 
 class User: NSManagedObject {
     @NSManaged public var name: String
+    @NSManaged public var items: NSSet
     @NSManaged private var idLocal: String
 
     init(userName: String) {

@@ -4,10 +4,17 @@
         <attribute name="count" attributeType="Integer 16" defaultValueString="1" usesScalarValueType="YES"/>
         <attribute name="idLocal" attributeType="String" defaultValueString="defaultId"/>
         <attribute name="itemName" attributeType="String" defaultValueString="defaultName"/>
+        <relationship name="rootUser" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="items" inverseEntity="User"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="idLocal"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
     </entity>
     <entity name="User" representedClassName=".User" syncable="YES">
         <attribute name="idLocal" attributeType="String" defaultValueString="defaultId"/>
         <attribute name="name" attributeType="String" defaultValueString="defaultName"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="rootUser" inverseEntity="Item"/>
         <uniquenessConstraints>
             <uniquenessConstraint>
                 <constraint value="idLocal"/>
@@ -15,7 +22,7 @@
         </uniquenessConstraints>
     </entity>
     <elements>
-        <element name="User" positionX="-63" positionY="-18" width="128" height="73"/>
-        <element name="Item" positionX="-54" positionY="9" width="128" height="88"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Item" positionX="307.66796875" positionY="-33.96484375" width="128" height="103"/>
     </elements>
 </model>

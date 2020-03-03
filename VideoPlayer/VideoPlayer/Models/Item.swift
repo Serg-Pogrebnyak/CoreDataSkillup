@@ -13,6 +13,7 @@ class Item: NSManagedObject {
     @NSManaged public var itemName: String
     @NSManaged public var count: Int16
     @NSManaged private var idLocal: String
+    @NSManaged private var rootUser: User
 
     init(itemName: String, count: Int16) {
         let entity = NSEntityDescription.entity(forEntityName: "Item", in: CoreManager.shared.coreManagerContext)!
