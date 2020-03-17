@@ -20,14 +20,18 @@ class MainVC: UIViewController {
         arrayOfUsers = CoreManager.shared.getAllUsers()!
     }
 
-    
+    @IBAction func didTapOnRootView(_ sender: Any) {
+        self.view.endEditing(true)
+    }
+
+
     @IBAction func addNewUser(_ sender: Any) {
         arrayOfUsers.append(User.init(userName: nameTextField.text!))
         //arrayOfItems.append(Item.init(itemName: nameTextField.text!, count: 5))
     }
 
     @IBAction func presentNewVC(_ sender: Any) {
-
+        CloudCoreDataManager.shared.saveUsersToCloud(users: arrayOfUsers)
     }
 
     @IBAction func saveData(_ sender: Any) {

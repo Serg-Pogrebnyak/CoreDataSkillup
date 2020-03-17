@@ -12,7 +12,7 @@ import CoreData
 class User: NSManagedObject {
     @NSManaged public var name: String
     @NSManaged public var items: NSSet
-    @NSManaged private var idLocal: String
+    @NSManaged public var idLocal: String
 
     init(userName: String) {
         let entity = NSEntityDescription.entity(forEntityName: "User", in: CoreManager.shared.coreManagerContext)!
